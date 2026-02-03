@@ -1,13 +1,13 @@
 # CPE 4800 F25 - Senior Design: The Smart Delivery Cart
 
-## 🛒 Project Overview
+##  Project Overview
 
 The **Smart Delivery Cart** is a compact, all-in-one hardware solution designed to drastically improve the efficiency of grocery delivery personnel. It integrates advanced technology to make the in-store shopping process faster and easier through two primary features:
 
 1.  **Self-Checkout Capability:** Streamlining the payment and inventory process using **RFID**.
 2.  **Live In-Store Position Tracking:** Providing real-time user location within the store layout using **BLE IPS**.
 
-## 👥 Team & Roles
+##  Team & Roles
 
 | Team Name | Members |
 | :--- | :--- |
@@ -21,7 +21,7 @@ The **Smart Delivery Cart** is a compact, all-in-one hardware solution designed 
 
 ---
 
-## ⚙️ System Architecture & Data Flow
+##  System Architecture & Data Flow
 
 The project is built on a modular architecture that manages both location tracking and inventory. The entire system relies on **MQTT** as the central message bus for seamless, real-time communication. 
 
@@ -45,7 +45,7 @@ The project is built on a modular architecture that manages both location tracki
 
 ---
 
-## 📍 Indoor Positioning System (IPS) Technical Description
+##  Indoor Positioning System (IPS) Technical Description
 
 This project implements an advanced Indoor Positioning System (IPS) using **Bluetooth Low Energy (BLE) trilateration** and sophisticated filtering techniques on an **ESP32 microcontroller**.
 
@@ -71,7 +71,7 @@ The system is designed for a defined 6x6 meter area and operates as follows:
 
 ---
 
-## 🖥️ Hardware & Peripherals (The Cart Build)
+##  Hardware & Peripherals (The Cart Build)
 
 The Smart Delivery Cart integrates several key hardware components to fulfill its dual functions.
 
@@ -86,7 +86,7 @@ The Smart Delivery Cart integrates several key hardware components to fulfill it
 
 ---
 
-## 💻 Code Structure & Usage
+##  Code Structure & Usage
 
 The project's software is split into two main sections: the **Embedded C++** code for the IPS sensor node, and three interconnected **Python** applications for the backend, inventory, and user interface.
 
